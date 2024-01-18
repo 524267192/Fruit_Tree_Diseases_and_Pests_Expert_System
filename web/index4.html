@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+		<link rel="stylesheet" href="css/index4.css" />
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.mobile-1.4.5.min.js"></script>	
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<script src="js/bootstrap.min.js"></script>
+	</head>
+	<body>	
+		<div data-role="page" id="pageone">
+			<div data-role="header">
+				<h1>果树病虫害专家系统</h1>
+			</div>
+			<div data-role="main" class="ui-content">
+				<div class="alert alert-dismissable alert-info">
+					<table width="100%" border="0">
+						<tbody>
+							<tr>
+								<td width="4%"><img src="img/inform.jpg" width="30px" height="30px"></td>
+								<td width="96%">
+									<marquee id="affiche" align="left" behavior="scroll" bgcolor="#d9edf7"
+										direction="left" height="30" width="100%" hspace="0" vspace="0" loop="-1"
+										scrollamount="5" scrolldelay="0" onMouseOut="this.start()"
+										onMouseOver="this.stop()">
+										公告：当前xxx热感病
+									</marquee>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div data-role="main" class="ui-content" align="center">
+				<video id="video" width="350" height="200" autoplay="autoplay"></video>
+				<div><button id="capture">拍照</button></div>
+				<canvas id="canvas" width="200" height="200" hidden="hidden"></canvas>
+			</div>
+			<div data-role="main" class="ui-content">
+				<h5>历史记录</h5>
+				<div data-spy="scroll" data-target="#navbar-example" data-offset="0"
+					style="height:250px;overflow:auto; position: relative;">
+					<ul data-role="listview" data-inset= "true" class="liItems">
+					</ul>
+				</div>
+			</div>
+			<div data-role="footer">
+				<div data-role="navbar" class="navbar navbar-default navbar-fixed-bottom text-center" role="navigation">
+					<ul>
+						<li><a href="index.html" data-ajax="false">果树</a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
+						<li><a href="desease.html" data-ajax="false">病例</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<script src="js/index4.js" type="text/javascript" charset="utf-8"></script>
+
+	</body>
+</html>

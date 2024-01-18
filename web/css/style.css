@@ -1,0 +1,25 @@
+.mui-content {
+	height: 100%;
+	width: auto;
+/* 	margin: auto; */
+
+	
+}
+body{
+	background-image: url(../img/50.jpg);
+
+}
+.index_list .mui-table-view .mui-media-object.mui-pull-left {
+	max-width: 100px;
+	height: 100px;
+	
+}
+.index_list{
+	margin-bottom: 45px;
+}
+
+.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper{
+	background-color: rgba(255,255,255,.15);
+}
+
+

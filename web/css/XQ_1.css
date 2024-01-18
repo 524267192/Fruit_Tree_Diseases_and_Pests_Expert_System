@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-image:url(../img/50.jpg);
+	background-repeat: repeat-x;
+	/* z-index:-1; */
+	
+}
+.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper{
+	background-color: rgba(255,255,255,.15);
+}
+#tittle{
+	margin-left: 90px;
+}
+
+.row_clearfix{
+	margin-bottom: 30PX;
+}
+.top{
+	margin-top: 30px;
+}
